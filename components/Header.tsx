@@ -7,7 +7,10 @@ function Header() {
     <header className="flex h-20 justify-between bg-[#F6F7F1] p-6 font-poppins font-semibold text-base">
       <div className="flex items-center cursor-pointer">
         <Link href="/">
-          <h1>Test</h1>
+          <img
+            src='https://github.com/RiderxL/iReviewer/blob/main/components/public/iReviewer.png'
+            alt='iReviewer'
+          />
         </Link>
         <div className="pl-20 hidden items-center space-x-5 text-base text-[#34A0A3] md:inline-flex">
           <h3>Explore</h3>
