@@ -19,7 +19,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="flex items-center space-x-5 text-[#9f9f9f] font-bold">
+      <div className="flex items-center space-x-5 text-[#9f9f9f] font-semibold">
         <button className="">Sign In</button>
         <button className="rounded-lg bg-[#9C84C4] px-4 py-1 text-white transtion ease-in-out delay-75  hover:bg-indigo-500 duration-300">
           Sign Up
