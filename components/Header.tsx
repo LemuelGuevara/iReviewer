@@ -3,33 +3,30 @@ import Image from 'next/image'
 
 function Header() {
   return (
-    <header className="flex justify-between mx-6 p-6 max-h-20 font-normal text-sm">
+    <header className="mx-6 flex max-h-20 justify-between p-6 text-base font-semibold">
       <div className="flex items-center space-x-6">
-        <div className='h-24 w-44 object-contain relative'>
-          <Link href="/">
-            <Image 
-            className='cursor-pointer'
-            src="/iReviewer-Logo.png"  
-            layout='fill'/>
-          </Link>
-        </div>
-        
-        <div className="hidden md:inline-flex items-center space-x-6 text-[#8bb6b6]">
+        <Link href="/">
+          <img
+            className="w-44 cursor-pointer object-contain"
+            src="/iReviewer-Logo.png"
+            alt=""
+          />
+        </Link>
+        <div className="hidden items-center space-x-6 text-[#767676] md:inline-flex">
           <h3>Explore</h3>
           <h3>Trending</h3>
           <h3>Rewards</h3>
         </div>
       </div>
-      
-      <div className="flex items-center space-x-5 text-[#A1C9C9]">
-        <h3 className="">Sign In</h3>
-        <h3 className="rounded-lg bg-[#DC9488] px-4 py-1 text-white">
+
+      <div className="flex items-center space-x-5 text-[#9f9f9f] font-semibold">
+        <button className="">Sign In</button>
+        <button className="rounded-lg bg-[#9C84C4] px-4 py-1 text-white transtion ease-in-out delay-75  hover:bg-indigo-500 duration-300">
           Sign Up
-        </h3>
+        </button>
       </div>
     </header>
   )
 }
 
 export default Header
-
