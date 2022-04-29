@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <div className='flex justify-between items-center bg-[#bddff0] max-h-100 py-20'>
         <div className='px-24 space-y-6'>
           <h1 className="font-sans text-5xl font-bold">
-            Share reviewers online with ease in the cloud.
+            Share reviewers online with ease in the cloud. Testing with Docker
           </h1>
           <h2>iReviewer is a plotform where students can freely share their reviewers online with ease.</h2>
         </div>
