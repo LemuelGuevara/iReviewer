@@ -1,17 +1,17 @@
-import type { NextPage } from 'next'
+import React from 'react'
+import SignInScreen from '../components/Auth'
 import Head from 'next/head'
-import Layout from '../components/Layout'
 
-const Home: NextPage = () => {
+function signIn() {
   return (
     <div className="">
       <Head>
         <title>iReviewer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout/>      
+      <SignInScreen/>      
     </div>
   )
 }
 
-export default Home
+export default signIn
