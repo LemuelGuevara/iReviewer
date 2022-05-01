@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .sub-navbar-btn {
+        @apply rounded-xl px-3 py-2 text-slate-700 hover:bg-slate-100 transition delay-75 ease-in-out hover:text-slate-900;
+    }
+}
