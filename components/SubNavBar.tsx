@@ -7,7 +7,7 @@ function SubNavBar() {
     <div className='flex md:flex-wrap items-center justify-center py-10 px-24 font-normal'>
         <Upload/>
         <div className='items-center justify-center'>
-            <Link href="/signIn">
+            <Link href="/courses/all">
                 <button className='sub-navbar-btn'>
                     All
                 </button>

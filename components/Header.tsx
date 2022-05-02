@@ -3,10 +3,11 @@ import Image from 'next/image'
 import { StyledFirebaseAuth } from 'react-firebaseui'
 import firebase from '../firebase/clientApp'
 import SignInScreen from './Auth'
+import SiginInModal from './SiginInModal'
 
 function Header() {
   return (
-    <header className="mx-6 flex max-h-20 justify-between p-6 text-base font-semibold sticky">
+    <header className="sticky mx-6 flex max-h-20 justify-between p-6 text-base font-semibold">
       <div className="flex items-center space-x-6">
         <Link href="/">
           <img
@@ -23,11 +24,12 @@ function Header() {
       </div>
 
       <div className="flex items-center space-x-5 font-semibold text-[#9f9f9f]">
-        <Link href="/signIn">
+        <SiginInModal />
+        {/* <Link href="/signIn">
           <button className="transtion rounded-xl bg-[#9C84C4] px-4 py-1 text-white delay-75 duration-300  ease-in-out hover:bg-indigo-500">
             Get Started
           </button>
-        </Link>
+        </Link> */}
       </div>
     </header>
   )

@@ -6,4 +6,10 @@
     .sub-navbar-btn {
         @apply rounded-xl px-3 py-2 text-slate-700 hover:bg-slate-100 transition delay-75 ease-in-out hover:text-slate-900;
     }
+    .sigin-backdrop {
+        @apply flex items-center justify-center max-w-full max-h-full p-32 bg-black
+    }
+    .sigin-modal-window {
+        @apply flex items-center justify-center w-10 h-10 p-32 bg-blue-400
+    }
 }
